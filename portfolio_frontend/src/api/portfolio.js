@@ -1,5 +1,3 @@
-'use strict';
-
 import { fetchJson } from './client';
 
 // PUBLIC_INTERFACE

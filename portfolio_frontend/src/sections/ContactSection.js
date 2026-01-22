@@ -1,5 +1,3 @@
-'use strict';
-
 import React, { useMemo, useState } from 'react';
 import { submitContactMessage } from '../api/portfolio';
 import { Card } from '../components/Card';

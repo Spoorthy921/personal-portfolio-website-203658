@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Centralized API client for the portfolio frontend.
  * Uses CRA env var naming: REACT_APP_*.

@@ -1,5 +1,3 @@
-'use strict';
-
 import React, { useEffect, useState } from 'react';
 import { getAbout } from '../api/portfolio';
 import { Card } from '../components/Card';
