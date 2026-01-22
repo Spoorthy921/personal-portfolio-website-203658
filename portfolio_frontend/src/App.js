@@ -42,23 +42,25 @@ function App() {
         <div className="hero">
           <div className="container hero-inner">
             <div className="hero-text">
-              <p className="eyebrow">Full-Stack Portfolio</p>
-              <h1 className="hero-title">Showcase your work with a clean, modern site.</h1>
+              <p className="eyebrow">Modern Portfolio</p>
+              <h1 className="hero-title">Building innovative digital experiences.</h1>
               <p className="hero-subtitle">
-                This site loads portfolio content from an Express backend via REST APIs.
+                A passionate developer creating modern web applications with clean design and powerful functionality. 
+                Explore my projects, skills, and get in touch to collaborate.
               </p>
               <div className="hero-actions">
                 <a className="btn btn-primary" href="#projects">View Projects</a>
-                <a className="btn btn-ghost" href="#contact">Contact</a>
+                <a className="btn btn-ghost" href="#about">About Me</a>
+                <a className="btn btn-ghost" href="#contact">Get in Touch</a>
               </div>
               <p className="hint">
-                API base: <code>{getApiBaseUrl()}</code>
+                Powered by React + Express • API: <code>{getApiBaseUrl()}</code>
               </p>
             </div>
 
-            <div className="hero-card" aria-label="Quick stats">
+            <div className="hero-card" aria-label="Tech stack overview">
               <div className="stat">
-                <div className="stat-value">React</div>
+                <div className="stat-value">React 18</div>
                 <div className="stat-label">Frontend</div>
               </div>
               <div className="stat">
@@ -66,8 +68,8 @@ function App() {
                 <div className="stat-label">Backend</div>
               </div>
               <div className="stat">
-                <div className="stat-value">REST</div>
-                <div className="stat-label">APIs</div>
+                <div className="stat-value">REST API</div>
+                <div className="stat-label">Integration</div>
               </div>
             </div>
           </div>
@@ -109,9 +111,12 @@ function App() {
       <footer className="footer">
         <div className="container footer-inner">
           <p className="muted">
-            Built with React + Express. Customize the content in the backend store or extend with a database.
+            © 2024 Portfolio. Built with React & Express • Open to opportunities and collaborations.
           </p>
-          <a className="nav-link" href="#top">Back to top</a>
+          <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+            <a className="nav-link" href="#contact">Contact</a>
+            <a className="nav-link" href="#top">↑ Top</a>
+          </div>
         </div>
       </footer>
     </div>
